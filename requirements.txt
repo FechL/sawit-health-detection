@@ -1,0 +1,9 @@
+pyserial
+numpy
+joblib
+PyWavelets
+pandas
+matplotlib
+lightgbm
+scikit-learn
+seaborn
