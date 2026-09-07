@@ -103,20 +103,6 @@ python training/train_model.py
 
 The training script extracts statistical and wavelet features, applies signal augmentation, and writes updated model files to `models/active/` and evaluation plots to `artifacts/plots/`.
 
-## Project structure
-
-- `data/training/primary/`: active training dataset.
-- `data/training/backup/`: historical training dataset backup.
-- `data/raw/`: raw sensor data and recorded CSV files.
-- `data/processed/`: converted and test CSV files.
-- `models/active/`: model and scaler files used by the application.
-- `models/archive/`: older experimental models.
-- `artifacts/plots/`: model evaluation results.
-- `logs/`: realtime recordings.
-- `scripts/converters/`: TXT-to-CSV conversion utilities.
-- `training/train_model.py`: training script with data augmentation.
-- `archive/legacy/`: older scripts and temporary files kept for reference.
-
 ## Maintenance
 
 - Clean the device regularly with a dry cloth.
